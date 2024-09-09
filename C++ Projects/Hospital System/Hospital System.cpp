@@ -164,11 +164,11 @@ void Exit(){
 
 }
 
-int main()
-{
+void hospital_system(){
  string patientsName [16][6]={} ;
  int patientStatus [16][6]={};
- while(true){
+ 
+while(true){
     menu();
     int choice ; cin >> choice;
 
@@ -183,11 +183,11 @@ int main()
         break;
     }
 
+  }
 }
 
-
-
+int main()
+{
+hospital_system();
 return 0;
-
-
 }
